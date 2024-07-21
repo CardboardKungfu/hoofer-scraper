@@ -8,13 +8,13 @@ Hopefully this relieves some of frustrations around the bogged down lessons webs
 ## Installation
 1. Install python3, if not already installed
 2. Create and Activate Python virtual environment
-- `python3 -m venv hoofer-venv` \
+`python3 -m venv hoofer-venv` \
 Windows
-- `cd .\hoofer-venv\bin\activate` \
+`cd .\hoofer-venv\bin\activate` \
 macOS and Linux
-- `source myenv/bin/activate`
+`source myenv/bin/activate`
 3. Install Dependencies
-- `pip install -r requirements.txt`
+`pip install -r requirements.txt`
 
 ## Example Usage
 `python3 hoofer-scraper.py 108300 108400` \
