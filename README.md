@@ -1,4 +1,4 @@
-# Hoofer Sailing Lessons Website Scraper
+# Hoofer Sailing Club Lessons Website Scraper
 
 ## Description
 A handy tool for getting a preview of the next week of Hoofer Sailing Club lessons. All of the lessons are typically posted the night before, but they aren't published and visible on the event calendar. You'll have to do a little bit of sleuthing to find the most relevant event ID. Once you do, typically I check for the next 150 events. <br>
