@@ -11,11 +11,11 @@ Hopefully this relieves some of frustrations around the bogged down lessons webs
 `python3 -m venv hoofer-venv` <br>
 Windows: `cd .\hoofer-venv\bin\activate` <br>
 macOS or Linux: `source myenv/bin/activate`
-3. Install Dependencies
+3. Install Dependencies <br>
 `pip install -r requirements.txt`
 
 ## Example Usage
-From the termina
+From the terminal <br>
 `python3 hoofer-scraper.py 108300 108400` <br>
 This will loop through all the events in the range 108300 thru 108400. If a link isn't live, it'll skip it and print the below error to your terminal: <br>
 `Failed to fetch https://lessons.hoofersailing.org/event/108304: 404 Client Error: Not Found for url: https://lessons.hoofersailing.org/event/108304`
