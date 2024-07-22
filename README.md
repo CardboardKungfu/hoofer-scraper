@@ -23,4 +23,6 @@ This will loop through all the events in the range 108300 thru 108400. If a link
 
 Doing this generates a `.csv` file, e.g. `07-21_1842-hoofer-lessons.csv`.
 
+When finished, type `deactivate` to deactivate the python virtual environment.
+
 For easiest viewing, I typically open excel, go to the data tab, and import the data from a csv. It should load it into a table that you can sort to your hearts content.
