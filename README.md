@@ -9,10 +9,8 @@ Hopefully this relieves some of frustrations around the bogged down lessons webs
 1. Install python3, if not already
 2. Create and Activate Python virtual environment <br>
 `python3 -m venv hoofer-venv` <br>
-Windows:
-`cd .\hoofer-venv\bin\activate` <br>
-macOS or Linux:
-`source myenv/bin/activate`
+Windows: `cd .\hoofer-venv\bin\activate` <br>
+macOS or Linux: `source myenv/bin/activate`
 3. Install Dependencies
 `pip install -r requirements.txt`
 
