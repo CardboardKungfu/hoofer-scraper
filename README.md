@@ -17,6 +17,7 @@ macOS and Linux
 `pip install -r requirements.txt`
 
 ## Example Usage
+From the termina
 `python3 hoofer-scraper.py 108300 108400` \
 This will loop through all the events in the range 108300 thru 108400. If a link isn't live, it'll skip it and print the below error to your terminal: \
 `Failed to fetch https://lessons.hoofersailing.org/event/108304: 404 Client Error: Not Found for url: https://lessons.hoofersailing.org/event/108304`
