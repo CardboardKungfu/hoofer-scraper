@@ -7,7 +7,7 @@ Hopefully this relieves some of frustrations around the bogged down lessons webs
 
 ## Installation
 1. Install python3, if not already
-2. Download code and open a terminal in the folder
+2. Download code and open a terminal in the folder `hoofer-scraper`
 3. Create and Activate Python virtual environment <br>
 `python3 -m venv hoofer-venv` <br>
 Windows Powershell: `.\hoofer-venv\bin\activate` or possibly `.\hoofer-venv\Scripts\activate` depending on your setup <br>
