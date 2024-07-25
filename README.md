@@ -17,6 +17,7 @@ macOS or Linux: `source myenv/bin/activate` (idk, probably. I didn't test it)
 
 ## Example Usage
 From the terminal <br>
+Activate your python virtual environment using the above command <br>
 `python3 hoofer-scraper.py 108300 108400` <br>
 This will loop through all the events in the range 108300 thru 108350. If a link isn't live, it'll skip it and print the below error to your terminal: <br>
 `Failed to fetch https://lessons.hoofersailing.org/event/108304: 404 Client Error: Not Found for url: https://lessons.hoofersailing.org/event/108304`
