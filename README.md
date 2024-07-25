@@ -11,7 +11,7 @@ Hopefully this relieves some of frustrations around the bogged down lessons webs
 3. Create and Activate Python virtual environment <br>
 `python3 -m venv hoofer-venv` <br>
 Windows Powershell: `.\hoofer-venv\bin\activate` or possibly `.\hoofer-venv\Scripts\activate` depending on your setup <br>
-macOS or Linux: `source myenv/bin/activate`
+macOS or Linux: `source myenv/bin/activate` (idk, probably. I didn't test it)
 4. Install Dependencies <br>
 `pip install -r requirements.txt`
 
