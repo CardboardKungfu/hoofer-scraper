@@ -1,21 +1,12 @@
-import sys
+# import sys
 import csv
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-if len(sys.argv) < 3:
-    print("Enter both start and end ranges")
-    sys.exit()
-
 # Range of event numbers to loop through
-start_range = sys.argv[1]
-end_range = sys.argv[2]
-
-# exit program if inputs invalid
-if not start_range.isnumeric() or not end_range.isnumeric():
-    print("Invalid inputs: ensure start and end ranges are numeric")
-    sys.exit()
+start_range = 108850
+end_range = 108900
 
 start_range = int(start_range)
 end_range = int(end_range)
