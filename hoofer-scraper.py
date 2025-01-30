@@ -28,6 +28,10 @@ with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
         register_url = f"lessons.hoofersailing.org/event/register/{event_number}"
         
         try:
+            # Set user-agent
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+            }
             # Fetch the HTML content
             response = requests.get(url)
             response.raise_for_status()  # Raise an HTTPError for bad responses
